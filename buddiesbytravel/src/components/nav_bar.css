@@ -1,0 +1,48 @@
+/* FILEPATH: /Users/smraydoan/Documents/buddiesByTravel/buddiesbytravel/src/components/nav_bar.css */
+
+/* Reset default styles */
+body, nav, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Nav bar container */
+.nav-bar {
+    background-color: #333;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+/* Nav bar logo */
+.nav-bar .logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Nav bar menu */
+.nav-bar .menu {
+    display: flex;
+}
+
+/* Nav bar menu items */
+.nav-bar .menu li {
+    margin-left: 20px;
+}
+
+/* Nav bar menu links */
+.nav-bar .menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Nav bar menu links on hover */
+.nav-bar .menu li a:hover {
+    color: #ffcc00;
+}

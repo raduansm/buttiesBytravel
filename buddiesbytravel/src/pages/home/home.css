@@ -1,0 +1,211 @@
+
+
+
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+
+.search-bar {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center;
+    border-radius: 5px;
+    background: #242424;
+    width: 100%; /* Adjust based on your design */
+    max-width: 500px; /* Set a maximum width */
+    justify-content: center;
+    height: auto; /* Let it adjust based on content */
+    padding: 20px; /* Add some padding */
+    margin: auto; /* Center it within the parent */
+}
+
+
+
+.search-input {
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background: transparent;
+    padding-left: 10px; /* Reduced padding */
+    margin-bottom: 10px; /* Add some margin for spacing between elements */
+    width: 100%; /* Make sure inputs take full width */
+}
+
+
+.search-button{
+    background-color: #514d4d;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #514d4d;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    max-width: 600px; /* Adjust as needed */
+    margin: auto;
+    margin-top: 10px;
+}
+
+.search-title {
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.search-input-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap in smaller screens */
+    gap: 10px; /* Spacing between elements */
+    justify-content: center;
+    width: 100%;
+}
+
+.search-input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    flex: 1; /* Allows inputs to grow and fill the space */
+    min-width: 150px; /* Prevents inputs from becoming too small */
+}
+
+.search-button {
+    padding: 10px 15px;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+ 
+.search-button:hover {
+    background-color: #004494;
+}
+
+.tour-card-title {
+    text-align: start;
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.tour-card-container {
+    max-width: 100%;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Keep cards in a single line */
+    padding: 20px 0;
+
+}
+
+.tour-card-scroll {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px; /* Space between cards */
+    padding: 0 20px;
+}
+
+.tour-card {
+    display: inline-block;
+    width: 300px; /* Fixed width for each card */
+    height: auto;
+    background-color: #242424;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(238, 233, 233, 0.25);
+    padding: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+      
+}
+
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent; /* Semi-transparent background */
+    z-index: 100; /* Ensure it's above other content */
+}
+
+.popup-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    max-width: 600px; /* Adjust width as needed */
+    text-align: center;
+}
+
+.popup-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.popup-description,
+.popup-date,
+.popup-destination,
+.popup-tour-type,
+.popup-max-participants,
+.popup-current-participants,
+.popup-status {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.join-button {
+    background-color: #0056b3;
+
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.join-button:hover {
+ 
+    background-color: #004494;
+}
+
